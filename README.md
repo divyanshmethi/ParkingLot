@@ -7,21 +7,21 @@ To design a **parking lot** system with ability to find:
 * Slot number in which a car with a given registration number is parked.
 
 * Slot numbers of all slots where a cars of drivers of a particular age is parked.
-
+---
 ### Pre requisites
 
-The source code for this project is written using Node.js. Make sure you have Node.js installed on your computer before running this application.
+The source code for this project is written using [Node.js](https://nodejs.org/en/download/). Make sure you have [Node.js](https://nodejs.org/en/download/) installed on your computer before running this application. if not please install Node.js from [here](https://nodejs.org/en/download/)
 
 To check if you have Node.js and NPM installed by running simple commands to see what version of each is installed:
 
-**Test Node.js**: To see if Node is installed, type node -v in Terminal. This should print the version number so you’ll see something like this v10.16.0.
+- **Test Node.js**: To see if Node is installed, type node -v in Terminal. This should print the version number so you’ll see something like this v10.16.0.
 
-**Test NPM**. To see if NPM is installed, type npm -v in Terminal. This should print the version number so you’ll see something like this 6.9.0.
-
+- **Test NPM**. To see if NPM is installed, type npm -v in Terminal. This should print the version number so you’ll see something like this 6.9.0.
+---
 ### How to run 
 
 STEP 1: npm install
-npm install or npm i will download all the dependencies defined in package.json file and generate a node_modules/ folder with the installed modules.
+npm install or npm i will download all the dependencies defined in package.json file and generate a node_modules/ folder with the installed modules. Learn more [here](https://docs.npmjs.com/cli/v6/commands/npm-install)
 
 STEP 2: Open terminal and type node src/index.js input.txt or npm start src/index.js
 
@@ -29,7 +29,7 @@ node src/index.js <path_to_file.txt>
 Note: There is a sample data file named input.txt inside the data folder.
 
 To run tests: npm run test-unit
-
+---
 ### Modules
 
 There are two classes defined:
@@ -69,7 +69,14 @@ It is the main class which is used to initialize a parking lot. In each parking 
 
 * isCarEqual() : Checks whether two cars are equal or not.
 
-**Note:** I've made an assumption that the registration number for two cars can never be same.
+**Note:** Assumption that the registration number for two cars can never be same.
+---
+### NPM Modules Used
+
+1. [ESlint](https://eslint.org/): A static code analysis tool for identifying problematic patterns found in JavaScript code. It covers both code quality and coding style issues. Learn more [here](https://eslint.org/).
+2. [Chai](https://www.chaijs.com/): A BDD/TDD assertion library for Node.js and it can be paired with any JS testing framework. Learn more [here](https://www.chaijs.com/).
+3. [Mocha](https://mochajs.org/): A JavaScript test framework for Node.js programs. Learn more [here](https://mochajs.org/).
+---
 
 ### CHEAT SHEET:
 1. npm install
