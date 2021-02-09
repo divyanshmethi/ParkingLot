@@ -29,7 +29,7 @@ node src/index.js <path_to_file.txt>
 Note: There is a sample data file named input.txt inside the data folder.
 
 To run tests: npm run test-unit
----
+___
 ### Modules
 
 There are two classes defined:
@@ -70,7 +70,7 @@ It is the main class which is used to initialize a parking lot. In each parking 
 * isCarEqual() : Checks whether two cars are equal or not.
 
 **Note:** Assumption that the registration number for two cars can never be same.
----
+___
 ### NPM Modules Used
 
 1. [ESlint](https://eslint.org/): A static code analysis tool for identifying problematic patterns found in JavaScript code. It covers both code quality and coding style issues. Learn more [here](https://eslint.org/).
