@@ -1,0 +1,14 @@
+Create_parking_lot 6
+Park KA-01-HH-1234 driver_age 21
+Park HR-01-HH-2341 driver_age 32
+Park TN-01-HH-5321 driver_age 21
+Park RJ-01-HH-5315 driver_age 30
+Park KA-01-HH-5309 driver_age 18
+Park MH-01-HH-9084 driver_age 22
+Slot_numbers_for_driver_of_age 21
+Park PB-01-TG-2341 driver_age 40
+Slot_number_for_car_with_number RJ-01-HH-5315
+Leave 2
+Park HR-29-TG-3098 driver_age 39
+Park KL-21-HJ-1209 driver_age 32
+Vehicle_registration_number_for_driver_of_age 21

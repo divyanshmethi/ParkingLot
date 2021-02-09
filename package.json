@@ -1,0 +1,24 @@
+{
+  "name": "parkinglot",
+  "version": "1.0.0",
+  "description": "Automated Parking Lot Design Problem",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test-unit": "mocha tests/specs.js"
+  },
+  "keywords": [
+    "parking",
+    "lot",
+    "squadstack",
+    "nodejs"
+  ],
+  "author": "Divyansh Methi <divyanshmethi11@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "3.1.0",
+    "chai": "4.2.0",
+    "eslint": "6.6.0",
+    "mocha": "^8.2.1"
+  }
+}
