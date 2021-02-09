@@ -1,4 +1,4 @@
-Problem:
+**Problem**
 To design a parking lot system with ability to find:
 
 Vehicle Registration numbers of all cars which are parked by the driver of a certain age.
@@ -7,7 +7,7 @@ Slot number in which a car with a given registration number is parked.
 
 Slot numbers of all slots where a cars of drivers of a particular age is parked.
 
-Pre requisites
+**Pre requisites**
 
 The source code for this project is written using Node.js. Make sure you have Node.js installed on your computer before running this application.
 
@@ -17,7 +17,7 @@ Test Node.js: To see if Node is installed, type node -v in Terminal. This should
 
 Test NPM. To see if NPM is installed, type npm -v in Terminal. This should print the version number so you’ll see something like this 6.9.0.
 
-How to run ?
+**How to run ?**
 
 STEP 1: npm install
 npm install or npm i will download all the dependencies defined in package.json file and generate a node_modules/ folder with the installed modules.
@@ -29,7 +29,7 @@ Note: There is a sample data file named input.txt inside the data folder.
 
 To run tests: npm run test-unit
 
-Modules - OOPS Approach
+**Modules**
 
 There are two classes defined:
 
@@ -69,7 +69,7 @@ isCarEqual() : Checks whether two cars are equal or not.
 
 Note: I've made an assumption that the registration number for two cars can never be same.
 
-CHEAT SHEET:
+**CHEAT SHEET:**
 1. npm install
 2. node src/index.js data/input.txt
 3. npm run test-unit -- for running tests
