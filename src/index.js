@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const fs = require('fs')
+const fs = require('fs');
 
 const	commandLineInputs = process.argv;
 
@@ -29,13 +29,13 @@ if (commandLineInputs[commandLineInputs.length - 1].endsWith('.txt')) {
 /**
  *
  * @param {String} input
- * @description function to call different functions based on 
+ * @description function to call different functions based on
  * commands that the users enters
  */
 function processUserCommands (input) {
 	const userCommand = input.split(' ')[0];
     switch (userCommand) {
-        
+
         case 'Create_parking_lot':
             try {
               const totalParkingSlots = parkingLot.createParkingLot(input);
@@ -45,7 +45,6 @@ function processUserCommands (input) {
               console.log(err.message);
             }
             break;
-        
         case 'Park':
             try {
               const parkingSlotNumber = parkingLot.parkCar(input);
@@ -55,7 +54,7 @@ function processUserCommands (input) {
               console.log(err.message);
             }
             break;
-        
+
         case 'Leave':
             try {
               const carNum = parkingLot.leaveCar(input);
@@ -65,9 +64,9 @@ function processUserCommands (input) {
               console.log(err.message);
             }
             break;
-        
+
         case 'Vehicle_registration_number_for_driver_of_age':
-            registrationNumbers = parkingLot.getCarsWithSameAgeDriver(input);
+            const registrationNumbers = parkingLot.getCarsWithSameAgeDriver(input);
             if (registrationNumbers) {
               console.log(registrationNumbers);
 			      }
@@ -75,9 +74,9 @@ function processUserCommands (input) {
               console.log('Sorry, Car with given Driver Age is not found');
             }
             break;
-        
+
         case 'Slot_numbers_for_driver_of_age':
-            parkingSlotNumbers = parkingLot.getSlotsWithSameAgeDriver(input);
+            const parkingSlotNumbers = parkingLot.getSlotsWithSameAgeDriver(input);
             if (parkingSlotNumbers) {
               console.log(parkingSlotNumbers);
             }
@@ -85,9 +84,9 @@ function processUserCommands (input) {
               console.log('Sorry, Cars with given Driver Age is not found');
             }
             break;
-        
+
         case 'Slot_number_for_car_with_number':
-            parkingSlotNumber = parkingLot.getSlotByCarNumber(input);
+            const parkingSlotNumber = parkingLot.getSlotByCarNumber(input);
             if (parkingSlotNumber) {
               console.log(parkingSlotNumber);
 			      }
