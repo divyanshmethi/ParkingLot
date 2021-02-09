@@ -41,19 +41,19 @@ It is the main class which is used to initialize a parking lot. In each parking 
 
 * parkCar(input) : Allocates nearest slot from entry gate to the car. It can throw following errors:
 
--  Minimum one slot is required to create parking slot : When parking lot is not initialized.
+  - Minimum one slot is required to create parking slot : When parking lot is not initialized.
 
--  Sorry, parking lot is full : When parking lot has reached its maximum capacity.
+  - Sorry, parking lot is full : When parking lot has reached its maximum capacity.
 
--  Please provide registration number and Age both : When input contains either of two i.e. registration number and Age of the car, not both.
+  - Please provide registration number and Age both : When input contains either of two i.e. registration number and Age of the car, not both.
 
 * leaveCar(input) : Deletes the car in the slot. It throws following errors:
 
--  Sorry, parking lot is empty if parking lot is empty.
+  - Sorry, parking lot is empty if parking lot is empty.
 
--  Slot number <SLOT NUMBER> is not found when slot number is absent.
+  - Slot number <SLOT NUMBER> is not found when slot number is absent.
 
--  Slot number <SLOT NUMBER> is already free when slot number is not occupied.
+  - Slot number <SLOT NUMBER> is already free when slot number is not occupied.
 
 * getCarsWithSameAgeDriver(input) : Returns a comma separated string containing reg numbers of cars where the age of driver is equal to the one passed in the input e.g. KA-01-HH-1244, MH-01-DD-2039.
 
