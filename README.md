@@ -1,13 +1,14 @@
-**Problem**
-To design a parking lot system with ability to find:
+# Problem
 
-Vehicle Registration numbers of all cars which are parked by the driver of a certain age.
+To design a **parking lot** system with ability to find:
 
-Slot number in which a car with a given registration number is parked.
+* Vehicle Registration numbers of all cars which are parked by the driver of a certain age.
 
-Slot numbers of all slots where a cars of drivers of a particular age is parked.
+* Slot number in which a car with a given registration number is parked.
 
-**Pre requisites**
+* Slot numbers of all slots where a cars of drivers of a particular age is parked.
+
+### Pre requisites**
 
 The source code for this project is written using Node.js. Make sure you have Node.js installed on your computer before running this application.
 
@@ -17,7 +18,7 @@ Test Node.js: To see if Node is installed, type node -v in Terminal. This should
 
 Test NPM. To see if NPM is installed, type npm -v in Terminal. This should print the version number so you’ll see something like this 6.9.0.
 
-**How to run ?**
+### How to run 
 
 STEP 1: npm install
 npm install or npm i will download all the dependencies defined in package.json file and generate a node_modules/ folder with the installed modules.
